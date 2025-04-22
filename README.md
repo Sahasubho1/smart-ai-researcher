@@ -18,8 +18,8 @@ The application retrieves the latest relevant news and content using the Tavily 
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Sahasubho1/smart-ai-researcher
+   cd https://github.com/Sahasubho1/smart-ai-researcher
 
 2. Dependencies
 
