@@ -19,7 +19,7 @@ The application retrieves the latest relevant news and content using the Tavily 
 
    ```bash
    git clone https://github.com/Sahasubho1/smart-ai-researcher
-   cd https://github.com/Sahasubho1/smart-ai-researcher
+   cd smart-ai-researcher
 
 2. Dependencies
 
