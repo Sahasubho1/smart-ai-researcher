@@ -20,3 +20,32 @@ The application retrieves the latest relevant news and content using the Tavily 
    ```bash
    git clone <repository_url>
    cd <repository_name>
+
+2. Dependencies
+
+   ```bash
+   langchain
+   langgraph
+   tavily
+   langchain_google_genai
+   dotenv
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Create a .env file in the root of the project and add the following:
+
+   ```env
+   api_key = <TAVILY_API_KEY>
+   gemini_api = <GEMINI_API_KEY>
+
+### How It Works
+
+- **Research Phase**: The researcher function queries the Tavily API with a user-provided question to fetch the latest relevant content (e.g., news articles).
+
+- **Summarization Phase**: The summarization function then uses the ChatGoogleGenerativeAI model to summarize the content and provide an answer to the question.
+
+- **Graph Workflow**: The entire flow is managed by the StateGraph in Langgraph, which orchestrates the "search" (research) and "summarization" stages.
+
