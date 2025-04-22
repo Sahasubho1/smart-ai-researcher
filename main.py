@@ -44,7 +44,9 @@ def summarization(state):
     query = state["query"]
     context = state["context"]
 
-    model = ChatGoogleGenerativeAI(api_key=gemini_api_key, model="gemini-1.5-pro")
+    model = ChatGoogleGenerativeAI(api_key=gemini_api_key, 
+                                   model="gemini-1.5-pro",
+                                   temperature = 0.7)
 
     prompt = PromptTemplate(
     input_variables=["context", "query"],
