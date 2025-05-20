@@ -1,4 +1,4 @@
-# AI Summarizer using Langchain and Google Gemini
+# AI Summarizer using LangChain and Google Gemini
 
 This project uses Langchain, Tavily, and Google Gemini APIs to create an intelligent summarizer that answers questions based on the latest news and information available on the web.
 
