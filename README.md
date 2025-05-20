@@ -18,8 +18,8 @@ The application retrieves the latest relevant news and content using the Tavily 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Sahasubho1/smart-ai-researcher
-   cd smart-ai-researcher
+   git clone https://github.com/subhasishsaha/ai-summariser
+   cd ai-summariser
 
 2. Dependencies
 
@@ -28,7 +28,6 @@ The application retrieves the latest relevant news and content using the Tavily 
    langgraph
    tavily
    langchain_google_genai
-   dotenv
 
 3. Install dependencies:
 
